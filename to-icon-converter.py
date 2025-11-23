@@ -43,10 +43,20 @@ class IconCongregator:
         while True:
             name = input(prompt).strip()  # Get file name
                                           # if there is no extension, add the default extension (.png)
+
+            if name not in os.path.exists(name):
+                return name
+            print(f"File '{name}' not found. Try again.")  # Error if not found.
+
+            if name.lower() == 'exit':
+                return None
+            
+        # aquí hay que mejorar la condición que permita la salida (si no pedirá un nombre hasta el infinito)
+        
             if not os.path.splitext(name)[1] and default_extension:
                 name += default_extension
             # If it's an output file (.ico) or the input file exists, return it
-            if default_extension == ".ico" or os.path.exists(name):
+            if name not in os.path.exists(name):
                 return name
             print(f"File '{name}' not found. Try again.")  # Error if not found.
             if name.lower() == 'exit':
