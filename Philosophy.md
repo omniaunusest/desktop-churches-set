@@ -6,11 +6,12 @@
             ░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░░▀░
 ## Desktop Churches Set: Project Philosophy and Guidelines
 
+---
 
 ### 1. Core Values
-1. **Clear Structure:** Repository sections for each *church* and general information.
 
-2. **Consistency:** Uniform formatting, naming conventions and user interactions across all scripts.
+1. **Clear Structure:** Organize the repository with dedicated sections for each *church* and general information.
+2. **Consistency:** Maintain uniform formatting, naming conventions, and user interactions across all scripts.
     - Naming conventions
         - about scripts:    
         `church_of_[function].py` (e.g., `church_of_icons.py`, `church_of_new_wave.py`).
@@ -19,19 +20,19 @@
         Use of descriptive names (e.g., `convert_to_ico()`, `apply_wave_distortion()`).
         ---
 
-3. **Clarity:** Simplified language. Code and documentation should be straightforward and accessible.
+3. **Clarity:** Use of simplified language. Code and documentation should be straightforward and accessible.
     - Avoid jargon. Explain technical terms briefly, it doesnt't hurt (e.g., "CLI: Command-Line Interface").
 
     - Keep functions small and focused.
     ---
 
-4. **User Empathy:** Assume the user is intelligent but unfamiliar with the codebase. Guide them with clear prompts, helpful errors, and intuitive workflows.
+4. **User Empathy:** Assume the user is intelligent but unfamiliar with the codebase. Guide them with clear prompts, helpful errors and intuitive workflows.
 
-5. **Readability:** Visual context (ASCII art) with purpose != pointless decoration.
+5. **Readability:** Use of visual context (ASCII art) with purpose, not as pointless decoration.
     - ASCII art should enhance understanding or theme, not clutter the space.
 
     - Be concise, not cryptic.
-    - Maintain a balance between technical and creativity sides.
+    - Keep the balance between technical precision and creative expression
     ---
 
 6. Professional Touch:
