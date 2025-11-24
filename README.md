@@ -14,6 +14,7 @@
 A user-friendly CLI (Command-Line Interface) toolkit for image processing. These scripts guide you through each step, ensuring smooth execution with clear instructions and error messages.
 
 *Pending: Implement dynamic transformation parameters for some 'churches' using API-extracted data.*
+*Pending: New churches.*
 
  - **[Church of Icons](#1-church-of-icons-to-ico-converter)**
 - **[Church of The New Wave](2-#church-of-the-new-wave-distortions-gospel)**
