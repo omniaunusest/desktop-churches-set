@@ -1,10 +1,10 @@
 
-                ░█▀█░█▄█░█▀█░▀█▀░█▀█░░░█░█░█▀█░█░█░█▀▀░░░█▀▀░█▀▀░▀█▀
-                ░█░█░█░█░█░█░░█░░█▀█░░░█░█░█░█░█░█░▀▀█░░░█▀▀░▀▀█░░█░
-                ░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░░▀░
-                                     presents
+                                ░█▀█░█▄█░█▀█░▀█▀░█▀█░░░█░█░█▀█░█░█░█▀▀░░░█▀▀░█▀▀░▀█▀
+                                ░█░█░█░█░█░█░░█░░█▀█░░░█░█░█░█░█░█░▀▀█░░░█▀▀░▀▀█░░█░
+                                ░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░░▀░
+                                                      presents
 
-                           a desktop set of churches
+                                            a desktop set of churches
 
 
         __________ conversion scripts for the daily use of images, spare them with a touch of holy code __________
@@ -12,6 +12,8 @@
 ---
 ### Desktop Churches Set
 A user-friendly CLI (Command-Line Interface) toolkit for image processing. These scripts guide you through each step, ensuring smooth execution with clear instructions and error messages.
+
+*Pending: Implement dynamic transformation parameters for some 'churches' using API-extracted data.*
 
  - **[Church of Icons](#1-church-of-icons-to-ico-converter)**
 - **[Church of The New Wave](2-#church-of-the-new-wave-distortions-gospel)**
@@ -48,7 +50,10 @@ This script applies a customizable sine wave effect, turning ordinary images int
 - Output: Saves the result as *newwave.png* (custom output filename coming soon).
 
 ---
+## Repository Estructure
 
+        . 
+---
 ## Libraries & Dependencies
 
 - [Pillow (PIL)](https://pillow.readthedocs.io/en/stable/)
