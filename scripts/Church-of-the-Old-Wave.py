@@ -62,7 +62,7 @@ def get_file_name(prompt, default_extension = ""):
         if default_extension not in ('.png', '.jpg', '.jpeg') and name not in os.path.exists(name):
             print(f"File '{name}' not found. Try again or write 'exit' to leave.")
             continue
-        return name
+    return name
 
 def get_int_input(prompt, default=None):
 # Prompt the user for an INT input, with optional default.
