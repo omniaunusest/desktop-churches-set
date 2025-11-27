@@ -80,7 +80,7 @@ def run(): # aquí falta mucho ASCII y mucha chicha
     print("=== Church of the New Wave: Distortion's gospel ===")
     
     while True:
-        image_name = get_file_name("\n> Bring the name of the image you want to change into the New Wave: ", '.png')
+        image_name = get_file_name("\n> Write the name of the image you are offering to the Wave: ", '.png')
 
         if image_name is None:
             break
