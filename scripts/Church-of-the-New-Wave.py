@@ -59,7 +59,7 @@ def get_file_name(prompt, default_extension = ""):
             name += default_extension
             # If it's an output file (.ico) or the input file exists, return it
 
-        if default_extension in ('.png', '.jpg', '.jpeg') and not os.path.exists(name):
+        if default_extension not in ('.png', '.jpg', '.jpeg') and name not in os.path.exists(name):
             print(f"File '{name}' not found. Try again or write 'exit' to leave.")
             continue
         return name
