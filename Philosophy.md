@@ -6,9 +6,17 @@
                 ░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░░░▀▀▀░▀░▀░▀▀▀░▀▀▀░░░▀▀▀░▀▀▀░░▀░
 ## Desktop Churches Set: Project Philosophy and Guidelines
 
+**Index**
+
+- [1. Core Values of this project](#1-core-values)
+- [2. Thematic Integration](#2-thematic-integration)
+
+- [3. Roadmap](#3-roadmap)
+
+- [4. Cultural references](#4-cultural-references)
+
 ---
-    + ¿breve descripción de lo que continúa? 
-    + índice
+---
 
 ### 1. Core Values
 
@@ -16,7 +24,7 @@
 2. **Consistency:** Maintain uniform formatting, naming conventions, and user interactions across all scripts.
     - Naming conventions
         - about scripts:    
-        ``church_of_[function].py`` (e.g., ``church_of_icons.py``, ``church_of_new_wave.py``).
+        ``church_of_[function].py`` (e.g., ``church_of_icons.py``, ``church_of_the-old_wave.py``).
 
         - about functions:  
         Use of descriptive names (e.g., ``to_ico()``, ``wave_distortion()``).
@@ -28,7 +36,7 @@
     - Keep functions small and focused.
     ---
 
-4. **User Empathy:** Assume the user is intelligent but unfamiliar with the codebase. Guide them with clear prompts, helpful errors and intuitive workflows.
+4. **User Empathy:** Assume always this claim, users are intelligent but unfamiliar with the codebase. Guide them with clear prompts, helpful errors and intuitive workflows.
 
 5. **Readability:** Use of visual context (ASCII art) with purpose, not as pointless decoration.
     - ASCII art should enhance understanding or theme, not clutter the space.
@@ -48,7 +56,7 @@
     - Credit contributors and third-party tools appropriately.
     ---
 
-7. **Lore Matters:** The thematic elements (religious metaphors, ASCII art and text commands) should reinforce the project’s identity and make it memorable, not pointless.
+7. **Lore Matters:** The thematic elements (religious metaphors, ASCII art and text commands) should reinforce the project’s identity and make it memorable, not distracting.
 
 8. **Lore Matters but... Practical Sense goes First**.
 ---
@@ -64,7 +72,7 @@ ASCII art, naming, and descriptions should align with the project’s lore.
   - Add customizable output filenames and formats for all scripts.
   - Implement batch processing.
 - **Long-Term:**
-  - Expand the set with more "churches" (e.g., ``Church of Ascension`` for image upscaling).
+  - Expand the set with more "churches" (e.g., ``Church of ASCIInsion`` for turning an image or photograph into an ASCII representation).
   - Develop a unified CLI for all scripts.
   - Create a tutorial or guide for extending the project.
 

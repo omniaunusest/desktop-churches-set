@@ -7,7 +7,7 @@
                                             a desktop set of churches
 
 
-        __________ conversion scripts for the daily use of images, spare them with a touch of holy code __________
+        ________ conversion scripts for the daily use, spare your images with a touch of holy code ________
 
 ---
 ### Desktop Churches Set
@@ -17,7 +17,7 @@ A user-friendly CLI (Command-Line Interface) toolkit for image processing. These
 *Pending: New churches.*
 
  - **[Church of Icons](#1-church-of-icons-to-ico-converter)**
-- **[Church of The New Wave](2-#church-of-the-new-wave-distortions-gospel)**
+- **[Church of The Old Wave](2-#church-of-the-old-wave-distortions-gospel)**
 
 
 ## 1. Church of Icons: to .ico converter
@@ -35,12 +35,12 @@ Make your own congretation of icons.
 
 ---
 
-## 2. Church of the New Wave: distortion's gospel
+## 2. Church of the Old Wave: distortion's gospel
 **Description:**        
 A Python script to apply sine wave distortion to images.
 
 **Purpose:**    
-Prepare your images with a touch of divine distortion before converting them to icons, or simply embrace the gospel of controlled chaos.
+Prepare your images with a touch of divine distortion before converting them to icons, or simply embrace the gospel of controlled chaos itself.
 
 This script applies a customizable sine wave effect, turning ordinary images into visually intriguing outputs.
 
@@ -48,7 +48,8 @@ This script applies a customizable sine wave effect, turning ordinary images int
 
 - Sine Wave Distortion: Adjust amplitude and wavelength for different effects.
 - Input: Image selection and distortion parameters.
-- Output: Saves the result as *newwave.png* (custom output filename coming soon).
+- Output: Saves the result as *newwave.png*
+- *Planeed: Custom output filename, ASCII art, transform images with sinewave based on API's output information.*
 
 ---
 ## Repository Estructure
