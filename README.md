@@ -10,17 +10,23 @@
         ________ conversion scripts for the daily use, spare your images with a touch of holy code ________
 
 ---
+
 ### Desktop Churches Set
+
 A user-friendly CLI (Command-Line Interface) toolkit for image processing. These scripts guide you through each step, ensuring smooth execution with clear instructions and error messages.
 
 *Pending: Implement dynamic transformation parameters for some 'churches' using API-extracted data.*
 *Pending: New churches.*
 
  - **[Church of Icons](#1-church-of-icons-to-ico-converter)**
+
 - **[Church of The Old Wave](2-#church-of-the-old-wave-distortions-gospel)**
+
+- **[Church of ASCII-nsion](#3-church-of-the-asciinsion)**
 
 
 ## 1. Church of Icons: to .ico converter
+
 **Description:**    
 A Python script to convert PNG images to ICO format, ideal for desktop icons and applications.
 
@@ -28,14 +34,15 @@ A Python script to convert PNG images to ICO format, ideal for desktop icons and
 Make your own congretation of icons.
 
 **Features:**
+
 - Batch conversion of PNG files to ICO.
 - Default conversion output size: 256 x 256.
 - Preserves transparency and image quality.
 - *Planned: Customizable icon sizes (16x16, 32x32, 64x64, etc.).*
 
----
 
 ## 2. Church of the Old Wave: distortion's gospel
+
 **Description:**        
 A Python script to apply sine wave distortion to images.
 
@@ -51,7 +58,20 @@ This script applies a customizable sine wave effect, turning ordinary images int
 - Output: Saves the result as *newwave.png*
 - *Planeed: Custom output filename, ASCII art, transform images with sinewave based on API's output information.*
 
----
+
+## 3. Church of the ASCIInsion
+
+**Description:**        
+A Python script to transform an image or photograph into its reflection shaped by ASCII characters.
+
+**Purpose:**    
+Bring your pictures and look its shadow in this mirror: get to know this side made of elemental characters.
+
+This script can apply different paths of choice of ASCII sets, unveiling the potencial of a picture with this digital ascension.
+
+**Features:**
+
+
 ## Repository Estructure
 
         . 
